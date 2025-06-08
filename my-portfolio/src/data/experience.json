@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Tensei Shitara",
+    "type": "Anime E-Commerce Website",
+    "startDate": "Sept 2023",
+    "endDate": "Dec 2023",
+    "use": "PHP, SQL, XAMPP, PHPMyAdmin",
+    "experiences": ["Develop an anime merchandise store", 
+    "An Intuitive frontend and database-driven inventory", 
+     "Incorporate search and product filtering, cart features"],
+    "imgSrc": "img/ts.png" 
+  },
+  {
+    "title": "Musicify",
+    "type": "Music Application",
+    "startDate": "May 2022",
+    "endDate": "Aug 2022",
+    "use": "Java, JavaFX, SQL, SceneBuilder, FXML",
+    "experiences": ["Develop a music software application",
+    "Conducted quality assurance testing to ensure application functionality",
+     "Resolved complex problems"],
+    "imgSrc": "img/music.png"
+  },
+  {
+    "title": "Ascension Banking System",
+    "type": "Data Structure",
+    "startDate": "Jan 2022", 
+    "endDate":"Apr 2022",
+    "use": "MySQL, API Integration",
+    "experiences": ["Implement complex algorithms that helps user access daily stock updates",
+    "Gained knowledge about data structures and algorithms"],
+    "imgSrc": "img/database.png"
+  }
+]
