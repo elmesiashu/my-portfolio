@@ -21,7 +21,7 @@ export default function about() {
 
                 {/* links information - short version */}
                 <div className="about-child">
-                    <div className="img-container"><img src="img/self.jpg" alt="self" /></div>
+                    <div className="img-container"><img src="./img/self.jpg" alt="self" /></div>
                     <div className="about-links">
                         <ul>
                             <li>
