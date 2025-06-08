@@ -1,62 +1,62 @@
 [
   {
     "title": "JavaScript",
-    "imgSrc": "img/js.png",
+    "imgSrc": "/img/js.png",
     "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
   {
     "title": "React",
-    "imgSrc": "img/react.png",
+    "imgSrc": "/img/react.png",
     "link": "https://react.dev/"
   },
   {
     "title": "PHP",
-    "imgSrc": "img/php.png",
+    "imgSrc": "/img/php.png",
     "link": "https://www.php.net/"
   },
   {
     "title": "Java",
-    "imgSrc": "img/java.png",
+    "imgSrc": "/img/java.png",
     "link": "https://www.java.com/en/"
   },
   {
     "title": "HTML5",
-    "imgSrc": "img/html.png",
+    "imgSrc": "/img/html.png",
     "link": "https://en.wikipedia.org/wiki/HTML5"
   },
   {
     "title": "CSS",
-    "imgSrc": "img/css.png",
+    "imgSrc": "/img/css.png",
     "link": "https://www.geeksforgeeks.org/css/css-tutorial/"
   },
   {
     "title": "C/C++",
-    "imgSrc": "img/c.jpg",
+    "imgSrc": "/img/c.jpg",
     "link": "https://code.visualstudio.com/docs/languages/cpp"
   },
   {
     "title": "MySQL",
-    "imgSrc": "img/mysql.png",
+    "imgSrc": "/img/mysql.png",
     "link": "https://www.mysql.com/"
   },
 {
     "title": "VSCode",
-    "imgSrc": "img/vscode.png",
+    "imgSrc": "/img/vscode.png",
     "link": "https://code.visualstudio.com/"
   },
   {
     "title": "Github",
-    "imgSrc": "img/github.png",
+    "imgSrc": "/img/github.png",
     "link": "https://github.com/"
   },
   {
     "title": "Git",
-    "imgSrc": "img/git.png",
+    "imgSrc": "/img/git.png",
     "link": "https://git-scm.com/downloads"
   },
   {
     "title": "Node.js",
-    "imgSrc": "img/node.png",
+    "imgSrc": "/img/node.png",
     "link": "https://nodejs.org/en"
   }
 ]
