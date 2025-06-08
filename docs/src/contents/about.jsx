@@ -1,3 +1,4 @@
+import Myself from '/img/self.jpg';
 
 export default function about() {
     return (
@@ -21,7 +22,7 @@ export default function about() {
 
                 {/* links information - short version */}
                 <div className="about-child">
-                    <div className="img-container"><img src="./img/self.jpg" alt="self" /></div>
+                    <div className="img-container"><img src={Myself} alt="self" /></div>
                     <div className="about-links">
                         <ul>
                             <li>
