@@ -134,24 +134,6 @@ ul {
   opacity: 1;
 }
 
-/* Responsive adjustments for section inner margins */
-@media (max-width: 768px) {
-  .title {
-    font-size: 8px;
-  }
-  
-  .top-icons img {
-    width: 50px;
-  }
-}
-
-@media (max-width: 480px) {
-
-  .title {
-    font-size: 8px;
-  }
-}
-
 /* welcome */
 .welcome {
   margin: auto;
@@ -439,7 +421,7 @@ ul {
 
 .form-row {
   display: flex;
-  gap: 1rem;
+  gap: 1,rem;
 }
 
 .contact-form input,
@@ -480,145 +462,34 @@ ul {
 }
 
 /* responsive  */
+/* Responsive adjustments for section inner margins */
 @media (max-width: 768px) {
-  section {
-    margin: 1.5rem 1rem;
-  }
-
   section .welcome, .about, .edu, .software, .cert {
-    margin: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 
-  .welcome {
-    margin: 1rem;
+  .title {
+    font-size: 8px;
   }
 
-  .welcome-container {
-    padding: 2rem 1rem;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .about-container {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .about-child {
-    width: 100%;
-    margin: 0;
-  }
-
-  .about-links {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .about-links li {
-    width: 100%;
-    margin: 0;
-  }
-
-  .about-links button {
-    width: 100%;
-  }
-
-  .project-list {
-    flex-direction: column;
-    gap: 1rem;
-    padding: 1rem;
-    width: 100%;
-  }
-
-  .project-list img {
-    width: 100%;
-    height: auto;
-  }
-
-  .project-details {
-    margin-left: 0;
-  }
-
-  .skill-container {
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
-  }
-
-  .skillImg {
-    width: 100px;
-    height: 100px;
-  }
-
-  .skillImg img {
+  .icon-nav img {
     width: 50px;
-  }
-
-  .contact h1 {
-    margin-left: 0;
-    text-align: center;
-  }
-
-  .contact-form {
-    width: 100%;
-    padding: 1rem;
-  }
-
-  .form-row {
-    flex-direction: column;
-  }
-
-  .cert-container {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .cert-img {
-    width: 100%;
-  }
-
-  .about-text {
-    padding: 1rem;
-    font-size: 16px;
-  }
-
-  .profile-name {
-    font-size: 3rem;
-  }
-
-  .welcome-container h2, .text1 {
-    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 480px) {
-  .welcome-container h2, .text1 {
-    font-size: 1.25rem;
+  section .welcome, .about, .edu, .software, .cert {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
-  .profile-name {
-    font-size: 2rem;
+  .title {
+    font-size: 8px;
   }
 
-  .skillImg {
-    width: 80px;
-    height: 80px;
-  }
-
-  .skillImg img {
+  .icon-nav img {
     width: 40px;
-  }
-
-  .about-text {
-    font-size: 14px;
-  }
-
-  .project-details h3 {
-    font-size: 20px;
-  }
-
-  .project-details p,
-  .project-exp ul li {
-    font-size: 14px;
+    height: 25px;
   }
 }
