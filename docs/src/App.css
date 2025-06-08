@@ -134,6 +134,24 @@ ul {
   opacity: 1;
 }
 
+/* Responsive adjustments for section inner margins */
+@media (max-width: 768px) {
+  .title {
+    font-size: 8px;
+  }
+  
+  .top-icons img {
+    width: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .title {
+    font-size: 8px;
+  }
+}
+
 /* welcome */
 .welcome {
   margin: auto;
@@ -147,6 +165,7 @@ ul {
 }
 
 .welcome-container {
+  width: 100%;
   background-image: url('./img/bg0.jpg');
   background-size: cover;
   padding: 5rem;
@@ -206,13 +225,11 @@ ul {
 }
 
 .about-links li {
-  height: 3.5rem;
   background-color: #31356d;
   border: 2px solid #87aec2;
   margin-top: 1rem;
-  margin-right: 1rem;
-  padding: 0.5rem;
-  width: 25rem;
+  margin-right: 2rem;
+  padding: 1rem;
   border-radius: 2rem;
 }
 
