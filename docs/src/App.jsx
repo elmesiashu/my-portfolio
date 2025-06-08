@@ -1,14 +1,14 @@
 import Portfolio from './contents/portfolio.jsx';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import './App.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<Portfolio />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
