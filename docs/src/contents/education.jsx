@@ -4,7 +4,7 @@ export default function Education() {
   return (
     <section className="edu" id="edu">
       <h1>Education</h1>
-      <p>Throughout my education, I worked on a variety of projects that challenged 
+      <p className='eduP'>Throughout my education, I worked on a variety of projects that challenged 
         me to apply technical concepts in real-world scenarios, helping me improve my 
         problem-solving skills, strengthen my teamwork abilities, and gain hands-on 
         experience with modern development tools and frameworks.</p>

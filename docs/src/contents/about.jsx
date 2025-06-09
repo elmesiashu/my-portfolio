@@ -22,7 +22,7 @@ export default function about() {
 
                 {/* links information - short version */}
                 <div className="about-child">
-                    <div className="img-container"><img src={Myself} alt="self" /></div>
+                    <div className="img-container"><img src={Myself} alt="self" className="myself" /></div>
                     <div className="about-links">
                         <ul>
                             <li>

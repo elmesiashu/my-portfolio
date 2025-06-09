@@ -5,6 +5,7 @@
 }
 
 html, body {
+  width: 100%;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -17,11 +18,6 @@ body {
 
 section {
   margin: 5rem auto;
-}
-
-section .welcome, .about, .edu, .software, .cert {
-  margin-left: 5rem;
-  margin-right: 5rem;
 }
 
 html {
@@ -136,6 +132,7 @@ ul {
 
 /* welcome */
 .welcome {
+  width: 90%;
   margin: auto;
   border: 0.2rem solid #7f84cb;
   border-radius: 2rem;
@@ -464,32 +461,60 @@ ul {
 /* responsive  */
 /* Responsive adjustments for section inner margins */
 @media (max-width: 768px) {
-  section .welcome, .about, .edu, .software, .cert {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
-
   .title {
-    font-size: 8px;
+    font-size: 5px;
   }
 
   .icon-nav img {
     width: 50px;
   }
+
+  p {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 480px) {
-  section .welcome, .about, .edu, .software, .cert {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
   .title {
-    font-size: 8px;
+    font-size: 5px;
   }
 
   .icon-nav img {
     width: 40px;
     height: 25px;
   }
+
+  .welcome {
+      width: 50%;
+      height: 150px;
+  }
+
+  .text1 {
+    font-size: 10px;
+  }
+
+  .profile-name {
+    font-size: 8px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .eduP {
+    max-width: fit-content;
+  }
+
+  .cert img {
+    width: 150px;
+  }
 }
+
