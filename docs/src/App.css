@@ -312,22 +312,23 @@ html, body {
   }
 
   .about-child {
-    width: 100%;
-    margin-right: 0;
+    width: 90%;
+    margin-right: 2.5rem;
     margin-bottom: 1rem;
   }
 
   .about-child:first-child {
-    margin-right: 0;
+    margin-right: 2.5rem;
   }
 
   .about h1 {
     font-size: 20px;
     text-shadow: 2.5px 1px #31356d;
+    margin-bottom: 0;
   }
 
   .about-text {
-    margin-top: 1rem;
+    margin-top: 0;
     font-size: 15px;
     padding: 1rem;
   }
@@ -336,15 +337,16 @@ html, body {
     width: 125px;
   } 
   
-  .about-links .btn, .btn1 {
-    width: 150px;
+  .about-links .btn, .about-links .btn1 {
+    width: 115px;
+    height: 40px;
+    font-size: clamp(0.75rem, 2vw, 1rem); 
     text-align: center;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
-
-  .about-links p {
-    font-size: 8.5px;
+    white-space: normal;   
+    word-break: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
