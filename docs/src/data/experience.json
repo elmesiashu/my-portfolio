@@ -8,7 +8,7 @@
     "experiences": ["Develop an anime merchandise store", 
     "An Intuitive frontend and database-driven inventory", 
      "Incorporate search and product filtering, cart features"],
-    "imgSrc": "/img/ts.png" 
+    "imgSrc": "img/ts.png" 
   },
   {
     "title": "Musicify",
@@ -19,7 +19,7 @@
     "experiences": ["Develop a music software application",
     "Conducted quality assurance testing to ensure application functionality",
      "Resolved complex problems"],
-    "imgSrc": "/img/music.png"
+    "imgSrc": "img/music.png"
   },
   {
     "title": "Ascension Banking System",
@@ -29,6 +29,6 @@
     "use": "MySQL, API Integration",
     "experiences": ["Implement complex algorithms that helps user access daily stock updates",
     "Gained knowledge about data structures and algorithms"],
-    "imgSrc": "/img/database.png"
+    "imgSrc": "img/database.png"
   }
 ]

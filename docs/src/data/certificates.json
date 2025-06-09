@@ -1,38 +1,38 @@
 [
   {
     "title": "Hacksplaining Security Training",
-    "imgSrc": "./cert/hacks.png"
+    "imgSrc": "cert/hacks.png"
   },
   {
     "title": "AWS Security: Security Generative AI on AWS",
-    "imgSrc": "./cert/security.png"
+    "imgSrc": "cert/security.png"
   },
   {
     "title": "AWS Cloud Practitioner Essentails",
-    "imgSrc": "./cert/cloud.png"
+    "imgSrc": "cert/cloud.png"
   },
   {
     "title": "Getting Started with Amazon GuardDuty",
-    "imgSrc": "./cert/guard.png"
+    "imgSrc": "cert/guard.png"
   },
   {
     "title": "Introduction to Generative AI - Art of the Possible",
-    "imgSrc": "./cert/generative.png"
+    "imgSrc": "cert/generative.png"
   },
   {
     "title": "Online Course Supplement: Practical Data Science with Amazon SageMaker",
-    "imgSrc": "./cert/sagemaker.png"
+    "imgSrc": "cert/sagemaker.png"
   },
   {
     "title": "AWS Security Fundamentals Second Edition",
-    "imgSrc": "./cert/second.png"
+    "imgSrc": "cert/second.png"
   },
     {
     "title": "AWS Technical Essentials",
-    "imgSrc": "./cert/technical.png"
+    "imgSrc": "cert/technical.png"
   },
   {
     "title": "Beginning C++ Programming – From Beginner to Beyond",
-    "imgSrc": "./cert/c.png"
+    "imgSrc": "cert/c.png"
   }
 ]

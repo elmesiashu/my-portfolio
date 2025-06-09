@@ -303,7 +303,7 @@ html, body {
 .project-list img {
   width: 200px;
   height: auto;
-  padding: 0.5rem;
+  padding: 0.2rem;
 }
 
 .project-details {
@@ -320,7 +320,6 @@ html, body {
 
 .project-details p {
   font-size: 18px;
-  margin-bottom: 0.8rem;
 }
 
 .project-exp {
@@ -349,6 +348,13 @@ html, body {
 }
 
 /* software */
+.software h1 {
+  color: white;
+  text-shadow: 5px 2px #31356d;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
 .skill-container {
   margin-top: 2rem;
   display: flex;
@@ -387,18 +393,18 @@ html, body {
 }
 
 /* certificates  */
+.cert h1 {
+  color: white;
+  text-shadow: 5px 2px #31356d;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
 .cert-container {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   gap: 25px;
-}
-
-.cert-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0.5rem;
 }
 
 .cert-img {
@@ -409,7 +415,11 @@ html, body {
 
 /* contact  */
 .contact h1 {
-  margin-left: 4rem;
+  color: white;
+  text-shadow: 5px 2px #31356d;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .contact-form {
@@ -423,7 +433,7 @@ html, body {
 
 .form-row {
   display: flex;
-  gap: 1,rem;
+  gap: 1rem;
 }
 
 .contact-form input,
@@ -575,26 +585,78 @@ html, body {
 
   .project-list {
     flex-direction: column;
+    background-size: 0 50%;
   }
 
   .project-list img {
-    width: 30%;
+    width: 25%;
   }
 
   .project-details h3 {
-    font-size: 15px;
+    font-size: 17px;
+    margin-bottom: 0.5rem;
   }
 
   .project-details p {
-    font-size: 12px;
-    margin-bottom: 0.5rem;
+    width: 80%;
+    font-size: 15px;
   }
 
   .project-exp ul li {
     margin-top: 0;
-    width: 80%;
-    font-size: 12px;
+    width: 50%;
+    font-size: 15px;
   } 
+
+  .skill-container {
+    width: 60%;
+  }
+
+  .skillImg {
+    width: 80px;
+    height: 80px;
+  }
+
+  .skill img {
+    width: 50px;
+  }
+
+  .software h1 {
+    font-size: 20px;
+  }
+  
+  .skill-list a {
+    font-size: 15px;
+  }
+
+  .cert h1 {
+    font-size: 15px;
+  }
+
+  .cert-container {
+    width: 45%;
+  }
+  .cert img {
+    width: 150px;
+  }
+
+  .contact h1 {
+    margin-top: 1rem;
+    font-size: 15px;
+  }
+
+  .contact-form {
+    width: 40%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.2rem;
+    font-size: 12px;
+  }
+
 }
 
 
