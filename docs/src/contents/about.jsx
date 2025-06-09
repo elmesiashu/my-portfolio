@@ -50,7 +50,7 @@ export default function about() {
                                     <button className="btn"><p>GitHub</p></button>
                                 </a>
                             </li>
-                            <li><a href="/MAF_Resume.pdf" download>
+                            <li><a href="MAF_Resume.zip" download>
                                     <button className="btn"><p>Download Resume/CVV</p></button>
                                 </a>
                             </li>
