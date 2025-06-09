@@ -1,6 +1,16 @@
 import Myself from '/img/self.jpg';
+import resume from '../data/MAF_Resume.pdf';
 
 export default function about() {
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = resume;
+        link.setAttribute('download', 'MAF_Resume.pdf');
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
         <>
         <section className="about" id="about">
@@ -50,8 +60,8 @@ export default function about() {
                                     <button className="btn"><p>GitHub</p></button>
                                 </a>
                             </li>
-                            <li><a href="MAF_Resume.pdf" download="MAF_Resume.pdf">
-                                    <button className="btn"><p>Download Resume/CVV</p></button>
+                            <li><a href="">
+                                    <button onClick={handleDownload} className="btn"><p>Download Resume/CVV</p></button>
                                 </a>
                             </li>
                         </ul>
