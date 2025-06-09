@@ -460,61 +460,143 @@ ul {
 
 /* responsive  */
 /* Responsive adjustments for section inner margins */
-@media (max-width: 768px) {
-  .title {
-    font-size: 5px;
+@media (max-width: 1024px) {
+  #root {
+    padding: 2rem;
   }
 
-  .icon-nav img {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-child {
+    width: 100%;
+    margin-right: 0 !important;
+  }
+
+  .about-text {
+    font-size: 16px;
+    padding: 1rem;
+  }
+
+  .project-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-details h3 {
+    font-size: 24px;
+  }
+
+  .project-details p,
+  .project-exp ul li {
+    font-size: 16px;
+  }
+
+  .skill-container {
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .skillImg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .skillImg img {
     width: 50px;
   }
 
-  p {
-    font-size: 15px;
+  .cert-img {
+    width: 100%;
   }
 
-  h1 {
-    font-size: 30px;
+  .form-row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact-form {
+    width: 90%;
+  }
+
+  .welcome {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 95%;
+  }
+
+  .welcome-container {
+    padding: 2rem;
+  }
+
+  .profile-name {
+    font-size: 3rem;
+  }
+
+  .text1,
+  .welcome-container h2 {
+    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 480px) {
-  .title {
-    font-size: 5px;
+  .top-btn {
+    flex-direction: column;
+    gap: 1rem;
   }
 
-  .icon-nav img {
+  .title {
+    font-size: 0.7rem;
+    padding: 0.3rem 1rem;
+  }
+
+  .icon-nav .icon {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .top-icons img {
     width: 40px;
     height: 25px;
   }
 
-  .welcome {
-      width: 50%;
-      height: 150px;
+  h1 {
+    font-size: 24px;
   }
 
-  .text1 {
-    font-size: 10px;
+  p,
+  .project-details p,
+  .project-exp ul li,
+  .about-text {
+    font-size: 14px;
+  }
+
+  .skillImg {
+    width: 80px;
+    height: 80px;
+  }
+
+  .skillImg img {
+    width: 40px;
+  }
+
+  .cert-img {
+    width: 100%;
   }
 
   .profile-name {
-    font-size: 8px;
+    font-size: 2.2rem;
   }
 
-  p {
-    font-size: 10px;
+  .text1 {
+    font-size: 1.2rem;
   }
 
-  h1 {
-    font-size: 25px;
-  }
-
-  .eduP {
-    max-width: fit-content;
-  }
-
-  .cert img {
-    width: 150px;
+  .contact h1 {
+    margin-left: 0;
+    font-size: 20px;
+    text-align: center;
   }
 }
-
