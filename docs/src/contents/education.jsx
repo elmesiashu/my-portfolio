@@ -1,13 +1,16 @@
 import experience from '../data/experience.json';
 
+
 export default function Education() {
   return (
     <section className="edu" id="edu">
       <h1>Education</h1>
-      <p className='eduP'>Throughout my education, I worked on a variety of projects that challenged 
+      <div className='edu-text'>
+        <p>Throughout my education, I worked on a variety of projects that challenged 
         me to apply technical concepts in real-world scenarios, helping me improve my 
         problem-solving skills, strengthen my teamwork abilities, and gain hands-on 
         experience with modern development tools and frameworks.</p>
+      </div>
       <div className='edu-content'>
         {/* education projects */}
         <ul className='project-container'>

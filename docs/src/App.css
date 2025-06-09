@@ -179,7 +179,7 @@ html, body {
   color: white;
   text-shadow: 5px 2px #31356d;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .about-text {
@@ -260,6 +260,210 @@ html, body {
   text-overflow: ellipsis;
 }
 
+/* Education */
+.edu h1 {
+  color: white;
+  text-shadow: 5px 2px #31356d;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.edu-text {
+  font-size: 20px;
+  color: white;
+}
+
+.project-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 2rem;
+}
+
+.project-list {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 24px;
+  width: calc(100% - 2rem);
+  background: linear-gradient(90deg, #445482 0%, rgba(25, 55, 109, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: 0.4s;
+  margin-top: 1.2rem;
+  border-radius: 2rem;
+  align-items: flex-start;
+}
+
+.project-list:hover {
+  background-size: 100% 100%;
+}
+
+.project-list img {
+  width: 200px;
+  height: auto;
+  padding: 0.5rem;
+}
+
+.project-details {
+  font-family: var(--font-roboto);
+  margin-left: 2rem; 
+  flex: 1;
+}
+
+.project-details h3 {
+  font-size: 30px;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.project-details p {
+  font-size: 18px;
+  margin-bottom: 0.8rem;
+}
+
+.project-exp {
+  flex: 1;
+}
+
+.project-exp ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  margin-left: 2rem;
+}
+
+.project-exp ul li {
+  margin: 5px 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.project-exp ul li::before {
+  content: "•";
+  margin-right: 8px;
+  color: #fff;
+}
+
+/* software */
+.skill-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 85px;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 1rem;
+}
+
+.skill-list a {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.skillImg {
+  background-color: #31356d;
+  border: 2px solid #87aec2;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 140px;
+}
+
+.skillImg img {
+  width: 75px;
+}
+
+/* certificates  */
+.cert-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 25px;
+}
+
+.cert-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.cert-img {
+  width: 490px;
+  border: 5px double;
+  border-image: linear-gradient(to right, #7f84cb, #ee0979) 1;
+}
+
+/* contact  */
+.contact h1 {
+  margin-left: 4rem;
+}
+
+.contact-form {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  gap: 1,rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  flex: 1;
+  padding: 1rem;
+  border: 2px solid #87aec2;
+  border-radius: 25px;
+  background-color: #31356d;
+  color: #fff;
+  font-size: 16px;
+}
+
+.contact-form textarea {
+  border-radius: 25px;
+  resize: none;
+}
+
+.contact-form button {
+  padding: 0.8rem 2rem;
+  background-color: #445482;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #2c3a5f;
+}
+
+.success-message {
+  color: #87f7c2;
+  margin-top: 1rem;
+  font-size: 18px;
+}
+
+
 /* 🔽 Responsive Adjustments for Mobile Screens */
 @media (max-width: 480px) {
   .top-btn {
@@ -269,7 +473,7 @@ html, body {
   .title {
     font-size: 8.5px;
     padding: 0.3rem 0.8rem;
-    max-width: 50%;
+    max-width: 100%;
   }
 
   .icon-nav .icon {
@@ -278,7 +482,7 @@ html, body {
   }
 
   .top-icons img {
-    max-width: 47px;
+    max-width: 100%;
     max-height: 25px;
   }
 
@@ -313,12 +517,12 @@ html, body {
 
   .about-child {
     width: 90%;
-    margin-right: 2.5rem;
+    margin-right: 2rem;
     margin-bottom: 1rem;
   }
 
   .about-child:first-child {
-    margin-right: 2.5rem;
+    margin-right: 3rem;
   }
 
   .about h1 {
@@ -331,10 +535,11 @@ html, body {
     margin-top: 0;
     font-size: 15px;
     padding: 1rem;
+    margin-right: 1.5rem;
   }
 
   .img-container img {
-    width: 125px;
+    width: 50%;
   } 
   
   .about-links .btn, .about-links .btn1 {
@@ -348,5 +553,49 @@ html, body {
     align-items: center;
     justify-content: center;
   }
+
+  .edu {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .edu h1 {
+    font-size: 20px;
+    text-shadow: 2.5px 1px #31356d;
+    margin-bottom: 0;
+  }
+
+  .edu-text {
+    margin-top: 0;
+    font-size: 15px;
+    margin-top: 1rem;
+    width: 43%;
+  }
+
+  .project-list {
+    flex-direction: column;
+  }
+
+  .project-list img {
+    width: 30%;
+  }
+
+  .project-details h3 {
+    font-size: 15px;
+  }
+
+  .project-details p {
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+  }
+
+  .project-exp ul li {
+    margin-top: 0;
+    width: 80%;
+    font-size: 12px;
+  } 
 }
+
+
 
