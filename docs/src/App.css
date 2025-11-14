@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 html, body {
@@ -91,8 +92,8 @@ html, body {
   padding: 4px 8px;
   position: absolute;
   z-index: 1;
-  top: 100%;
-  left: 50%;
+  top: 80%;
+  left: 38%;
   transform: translateX(-50%);
   opacity: 0;
   transition: opacity 0.3s;
@@ -103,19 +104,22 @@ html, body {
 .icon-nav:hover .top-text {
   visibility: visible;
   opacity: 1;
+  color: white;
 }
 
 /* welcome */
 .welcome {
-  width: 100%;
+  display: flex;
   margin-top: 30px;
   border: 0.2rem solid #7f84cb;
   border-radius: 2rem;
   overflow: hidden;
   flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .welcome-container {
+  width: 100%;
   background-image: url('/img/bg0.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -141,7 +145,7 @@ html, body {
 }
 
 .profile-name {
-  font-size: 5rem;
+  font-size: 3rem;
   color: white;
   text-shadow: 5px 2px #31356d;
   font-weight: bold;
@@ -154,7 +158,6 @@ html, body {
 }
 
 .about-container {
-  display: flex;
   color: white;
   flex-wrap: wrap;
   width: 100%;
@@ -496,12 +499,9 @@ html, body {
     max-height: 25px;
   }
 
-  .welcome {
-    width: fit-content;
-  }
-
   .welcome-container {
     padding: 3rem;
+    width: fit-content;
   }
 
   .welcome-container h2 {

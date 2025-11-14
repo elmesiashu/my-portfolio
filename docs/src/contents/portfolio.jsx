@@ -13,7 +13,7 @@ export default function main() {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(250 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = [ "Hi! I'm Melody Ann", "An IT Student" ];
+    const toRotate = [ "Hi! I'm Melody Ann", "An IT Student", "Welcome to my Profile Page"];
     const period = 2000;
 
     useEffect(() => {
@@ -58,7 +58,7 @@ export default function main() {
                     <span className='text1'>Welcome to my Profile Website</span>
                 </h2>
                 <p  className="profile-name">
-                    {'>.< '}<span className="txt-rotate" dataPeriod="1000" data-rotate='[]'><span className="wrap">{text}</span></span>
+                    {''}<span className="txt-rotate" dataPeriod="1000" data-rotate='[]'><span className="wrap">{text}</span></span>
                 </p>    
             </div>
         </section>

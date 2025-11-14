@@ -1,5 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import MapView from 'react-native-maps';
+import { StyleSheet, View } from 'react-native';
 
 export default function Contact() {
   const form = useRef();
@@ -23,6 +25,11 @@ export default function Contact() {
   };
 
   return (
+    <>
+    <View style={styles.container}>
+      <MapView style={styles.map} />
+    </View>
+
     <section className="contact" id="contact">
       <h1>Contact Me</h1>
       <form ref={form} onSubmit={sendEmail} className="contact-form">
@@ -35,5 +42,16 @@ export default function Contact() {
         {sent && <p className="success-message">Thank you — your message was sent!</p>}
       </form>
     </section>
+    </>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  map: {
+    width: '100%',
+    height: '100%',
+  },
+});
